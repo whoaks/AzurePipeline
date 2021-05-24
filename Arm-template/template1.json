@@ -3,19 +3,25 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "VNet_Name": {
-            "type": "string"
+            "type": "string",
+            "defaultValue: "VNet"
         },
         "VNet_Address": {
-            "type": "string"
+            "type": "string",
+            "defaultValue: "10.20.0.0/16"
         },
         "VNet_Tags": {
-            "type": "object"
+            "type": "object",
+            "defaultValue: {
+                 "Env": "Testing"
         },
         "Subnet_Name": {
-            "type": "string"
+            "type": "string",
+            "defaultValue: "Subnet"
         },
         "Subnet_Address": {
-            "type": "string"
+            "type": "string",
+            "defaultValue: "10.20.0.0/24"
         }
     },
     "resources": [
