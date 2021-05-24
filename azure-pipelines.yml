@@ -13,8 +13,8 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'whoakssp'
-    subscriptionId: 3280ff72-14fc-46dd-809e-ccee75183a87
+    azureResourceManagerConnection: 'armsp'
+    subscriptionId: C91D68F3-7759-4DAE-90A1-745E565DBDD9
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'Aks-RG'
     location: 'East US'
